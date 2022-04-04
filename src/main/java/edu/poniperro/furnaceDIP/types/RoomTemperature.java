@@ -1,11 +1,17 @@
 package edu.poniperro.furnaceDIP.types;
 
 public class RoomTemperature {
-	
 	private double temperature = 0;
+	private static RoomTemperature instance = null;
 	
-	public RoomTemperature(double temperature){
-		this.temperature = temperature;
+	private RoomTemperature(){
+	}
+
+	public static RoomTemperature getInstance() {
+		if (instance==null) {
+			instance = new RoomTemperature();
+		}
+		return instance;
 	}
 
 	public double getTemperature() {
