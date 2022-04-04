@@ -1,9 +1,9 @@
-package org.foobarspam.furnaceDIP.hardware;
+package edu.poniperro.furnaceDIP.hardware;
 
-import org.foobarspam.furnaceDIP.interfaces.Heater;
-import org.foobarspam.furnaceDIP.interfaces.Thermometer;
-import org.foobarspam.furnaceDIP.types.RegulatorDisplayCodes;
-import org.foobarspam.furnaceDIP.types.RoomTemperature;
+import edu.poniperro.furnaceDIP.interfaces.Heater;
+import edu.poniperro.furnaceDIP.interfaces.Thermometer;
+import edu.poniperro.furnaceDIP.types.RegulatorDisplayCodes;
+import edu.poniperro.furnaceDIP.types.RoomTemperature;
 
 public class Regulator {
 	

@@ -1,12 +1,12 @@
-package org.foobarspam.furnaceDIP.main;
+package edu.poniperro.furnaceDIP.main;
 
-import org.foobarspam.furnaceDIP.hardware.GasHeater;
-import org.foobarspam.furnaceDIP.hardware.Regulator;
-import org.foobarspam.furnaceDIP.hardware.RemoteCommandSensor;
-import org.foobarspam.furnaceDIP.interfaces.Heater;
-import org.foobarspam.furnaceDIP.interfaces.Thermometer;
-import org.foobarspam.furnaceDIP.otherstuff.Jedi;
-import org.foobarspam.furnaceDIP.types.RoomTemperature;
+import edu.poniperro.furnaceDIP.hardware.GasHeater;
+import edu.poniperro.furnaceDIP.hardware.Regulator;
+import edu.poniperro.furnaceDIP.hardware.RemoteCommandSensor;
+import edu.poniperro.furnaceDIP.interfaces.Heater;
+import edu.poniperro.furnaceDIP.interfaces.Thermometer;
+import edu.poniperro.furnaceDIP.otherstuff.Jedi;
+import edu.poniperro.furnaceDIP.types.RoomTemperature;
 
 /**
  * Hello world!
